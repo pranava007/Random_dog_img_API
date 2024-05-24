@@ -33,7 +33,8 @@ function Dog() {
       text-align: center;`;
 
       div.append(image);
-    });
+    })
+    .catch((error)=>{div.append(error)})
 }
 
 // ? button click call Dog() function
