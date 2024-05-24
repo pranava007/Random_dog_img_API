@@ -7,6 +7,7 @@ btnn.type = "button";
 btnn.textContent = "Click me !";
 btnn.style = ` background-color: rgb(220, 54, 54);
 border: none;
+
 color: white;
 padding: 10px;
 border-radius: 10px;
@@ -27,6 +28,8 @@ function Dog() {
       image.src = ima;
       image.style = ` width: 400px;
       height: 400px;
+      border-radius: 10px;
+      margin: 30px;
       text-align: center;`;
 
       div.append(image);
